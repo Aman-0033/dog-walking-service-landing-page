@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Canine Haven - Premium professional dog walking and individual pet care services. Licensed, insured, and certified in canine first aid." />
+  <meta name="theme-color" content="#171717" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><text y='20' font-size='20'>🐕</text></svg>" />
+  <title>Canine Haven | Premium Dog Walking & Canine Care</title>
+  
+  <!-- Fonts: DM Sans for headings, Inter for body -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400..800;1,9..40,400..800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <!-- Accessible Skip to Content Link -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- Global Header & Accessible Navigation -->
+  <header class="site-header">
+    <div class="container header-container">
+      <a href="#hero" class="brand-logo" aria-label="Canine Haven Homepage">
+        <svg class="brand-icon" viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/>
+        </svg>
+        <span>CANINE HAVEN</span>
+      </a>
+
+      <!-- Mobile Navigation Hamburger Toggle -->
+      <button 
+        type="button" 
+        id="nav-toggle" 
+        class="nav-toggle" 
+        aria-expanded="false" 
+        aria-controls="nav-menu" 
+        aria-label="Toggle navigation menu"
+      >
+        <span class="nav-toggle-icon" aria-hidden="true"></span>
+      </button>
+
+      <!-- Navigation Menu -->
+      <nav id="nav-menu" class="nav-menu" aria-label="Primary Navigation">
+        <ul class="nav-list">
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#services" class="nav-link">Services</a></li>
+          <li><a href="#how-it-works" class="nav-link">How It Works</a></li>
+          <li><a href="#why-choose-us" class="nav-link">Why Choose Us</a></li>
+          <li><a href="#testimonials" class="nav-link">Reviews</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <div class="nav-cta-wrapper">
+          <a href="#contact" class="btn btn-primary nav-cta">Book Consultation</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Landmark -->
+  <main id="main-content">
+    
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section" aria-labelledby="hero-heading">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <span class="hero-eyebrow">Professional Canine Care</span>
+          <h1 id="hero-heading" class="hero-title">Individualized Dog Walking Crafted for Canine Well-Being.</h1>
+          <p class="hero-desc">
+            Reliable, certified, and fully insured walking services designed around your dog's temperament, pace, and safety. Every walk includes live GPS tracking and detailed photo updates.
+          </p>
+          <div class="hero-actions">
+            <a href="#contact" id="hero-primary-cta" class="btn btn-primary">Schedule a Walk</a>
+            <a href="#services" class="btn btn-secondary">Explore Services</a>
+          </div>
+          <div class="hero-trust-bar" aria-label="Trust and Accreditation Statistics">
+            <div class="trust-item">
+              <span class="trust-item-value">100%</span>
+              <span class="trust-item-label">Insured &amp; Bonded</span>
+            </div>
+            <div class="trust-item">
+              <span class="trust-item-value">15,000+</span>
+              <span class="trust-item-label">Completed Walks</span>
+            </div>
+            <div class="trust-item">
+              <span class="trust-item-value">5.0 ★</span>
+              <span class="trust-item-label">Client Rating</span>
+            </div>
+          </div>
+        </div>
+        <div class="hero-media-wrapper">
+          <figure class="hero-img-frame">
+            <img 
+              src="https://images.unsplash.com/photo-1537151625747-768eb6cf92b2?auto=format&fit=crop&w=900&q=80" 
+              alt="Happy golden dog sitting in an urban park on a clean leather leash" 
+              class="hero-img"
+              width="600"
+              height="750"
+            />
+            <figcaption class="hero-media-caption">Certified walkers dedicated to calm, positive leash experiences.</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section section-alt" aria-labelledby="about-heading">
+      <div class="container about-grid">
+        <div class="about-media">
+          <figure class="about-media-frame">
+            <img 
+              src="https://images.unsplash.com/photo-1587300003388-59208cc962cb?auto=format&fit=crop&w=800&q=80" 
+              alt="Professional dog walker gently interacting with a resting dog outdoors" 
+              class="about-img"
+              loading="lazy"
+              width="600"
+              height="600"
+            />
+          </figure>
+        </div>
+        <div class="about-content">
+          <div class="section-header">
+            <span class="section-eyebrow">Our Philosophy</span>
+            <h2 id="about-heading">Conscientious Pet Care Rooted in Safety &amp; Respect.</h2>
+            <p class="section-subtitle">
+              Canine Haven was established on the principle that daily exercise should be enriching, calm, and tailored to each dog's distinct physiological and behavioral needs.
+            </p>
+          </div>
+          <p>
+            We strictly reject overcrowded pack walking. Instead, we emphasize one-on-one attention or carefully screened small pairings of compatible energy levels. Our professional walkers are thoroughly vetted, background-checked, and trained in Pet First Aid and positive reinforcement techniques.
+          </p>
+          <div class="about-pillars">
+            <div class="pillar-item">
+              <h3 class="pillar-title">First Aid Certified</h3>
+              <p class="pillar-desc">Every walker completes rigorous Pet CPR and emergency response protocols.</p>
+            </div>
+            <div class="pillar-item">
+              <h3 class="pillar-title">Transparent GPS</h3>
+              <p class="pillar-desc">Real-time route verification, distance metrics, and time stamps for total peace of mind.</p>
+            </div>
+            <div class="pillar-item">
+              <h3 class="pillar-title">Behavioral Screening</h3>
+              <p class="pillar-desc">In-depth initial assessments ensure zero stressful encounters or unsafe pack dynamics.</p>
+            </div>
+            <div class="pillar-item">
+              <h3 class="pillar-title">Dual-Leash Safety</h3>
+              <p class="pillar-desc">Secondary clip backups and escape-proof hardware on all outdoor excursions.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section" aria-labelledby="services-heading">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow">Our Walking Programs</span>
+          <h2 id="services-heading">Curated Services for Every Stage of Life.</h2>
+          <p class="section-subtitle">
+            Explore our specialized walking programs designed to support energetic pups, working breeds, and gentle seniors.
+          </p>
+        </div>
+
+        <!-- Filter & Search Toolbar -->
+        <div class="services-toolbar" role="region" aria-label="Service filtering and search controls">
+          <div class="service-filter-group" role="group" aria-label="Filter by service type">
+            <button type="button" class="service-filter-btn is-active" data-category="all" aria-pressed="true">All Services</button>
+            <button type="button" class="service-filter-btn" data-category="solo" aria-pressed="false">Solo Walks</button>
+            <button type="button" class="service-filter-btn" data-category="group" aria-pressed="false">Group Strolls</button>
+            <button type="button" class="service-filter-btn" data-category="specialized" aria-pressed="false">Specialized Care</button>
+          </div>
+          <div class="services-search-wrapper">
+            <input 
+              type="search" 
+              id="service-search" 
+              class="services-search-input" 
+              placeholder="Filter services by keyword..." 
+              aria-label="Search dog walking services by keyword"
+            />
+          </div>
+        </div>
+
+        <!-- Live Status Bar -->
+        <div class="services-status-bar">
+          <span id="services-count" aria-live="polite">6 services available</span>
+          <span class="services-note">All services include water check &amp; paw wipe</span>
+        </div>
+
+        <!-- Dynamic Services Grid -->
+        <div id="services-grid" class="services-grid" aria-label="Available dog walking programs">
+          <!-- Dynamically populated by js/main.js -->
+        </div>
+
+        <!-- Empty State Container -->
+        <div id="services-empty-state" class="empty-state" hidden aria-live="polite">
+          <h3 class="empty-state-title">No data found</h3>
+          <p class="empty-state-desc">No dog walking services match your current search query or category selection.</p>
+          <button type="button" id="services-reset-btn" class="btn btn-secondary">Reset Filters</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section id="how-it-works" class="section section-alt" aria-labelledby="how-it-works-heading">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow">Seamless Process</span>
+          <h2 id="how-it-works-heading">How Our Service Works.</h2>
+          <p class="section-subtitle">
+            Getting started is simple, transparent, and structured around your dog's comfort and home security.
+          </p>
+        </div>
+
+        <div class="steps-grid">
+          <article class="step-card">
+            <span class="step-number">01</span>
+            <h3 class="step-title">Complimentary Meet &amp; Greet</h3>
+            <p class="step-desc">
+              We visit your home to meet your dog, learn their walking triggers, review leash routines, and secure lockbox access instructions.
+            </p>
+          </article>
+          <article class="step-card">
+            <span class="step-number">02</span>
+            <h3 class="step-title">Customized Schedule</h3>
+            <p class="step-desc">
+              Your dog is paired with a dedicated primary walker who learns their habits and maintains a predictable daily walking cadence.
+            </p>
+          </article>
+          <article class="step-card">
+            <span class="step-number">03</span>
+            <h3 class="step-title">Live GPS &amp; Digital Report</h3>
+            <p class="step-desc">
+              Receive live check-in notifications, GPS trail mapping, potty logs, fresh water confirmation, and high-resolution photo summaries after every visit.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section id="why-choose-us" class="section" aria-labelledby="why-us-heading">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow">Professional Standards</span>
+          <h2 id="why-us-heading">Why Discerning Pet Parents Choose Us.</h2>
+          <p class="section-subtitle">
+            Uncompromising safety protocols, certified personnel, and transparent communication differentiate our canine care.
+          </p>
+        </div>
+
+        <div class="features-grid">
+          <div class="feature-item">
+            <h3 class="feature-title">Licensed &amp; Fully Insured</h3>
+            <p class="feature-desc">Comprehensive commercial liability and bonded protection covering every walk and home entry.</p>
+          </div>
+          <div class="feature-item">
+            <h3 class="feature-title">Vetted Professionals</h3>
+            <p class="feature-desc">Strict multi-stage background checks, motor vehicle screenings, and hands-on behavioral evaluations.</p>
+          </div>
+          <div class="feature-item">
+            <h3 class="feature-title">GPS Route Tracking</h3>
+            <p class="feature-desc">Accurate satellite tracking records duration, exact coordinates, and distance traveled on every excursion.</p>
+          </div>
+          <div class="feature-item">
+            <h3 class="feature-title">Weather-Adaptive Care</h3>
+            <p class="feature-desc">Pavement temperature checks, heat protection adjustments, and indoor mental enrichment during inclement weather.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="section section-alt" aria-labelledby="testimonials-heading">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow">Client Feedback</span>
+          <h2 id="testimonials-heading">Trusted by Pet Parents Across the City.</h2>
+          <p class="section-subtitle">
+            Authentic experiences from families who rely on our structured walking programs daily.
+          </p>
+        </div>
+
+        <div class="testimonials-grid">
+          <article class="testimonial-card">
+            <div class="testimonial-stars" aria-label="5 out of 5 stars">★★★★★</div>
+            <blockquote class="testimonial-quote">
+              "The consistency and punctuality of Canine Haven has been invaluable for our rescue dog, who tends to be reactive around other dogs. Having a dedicated solo walker who understands his thresholds made all the difference."
+            </blockquote>
+            <footer class="testimonial-author">
+              <span class="author-name">Eleanor Vance</span>
+              <span class="author-dog">Parent to Barnaby (Border Collie Mix)</span>
+            </footer>
+          </article>
+
+          <article class="testimonial-card">
+            <div class="testimonial-stars" aria-label="5 out of 5 stars">★★★★★</div>
+            <blockquote class="testimonial-quote">
+              "The daily GPS route maps and photo updates bring enormous peace of mind during long office days. The team noticed a minor paw scrape immediately and followed our medical protocol perfectly."
+            </blockquote>
+            <footer class="testimonial-author">
+              <span class="author-name">Marcus Sterling</span>
+              <span class="author-dog">Parent to Winston (English Bulldog)</span>
+            </footer>
+          </article>
+
+          <article class="testimonial-card">
+            <div class="testimonial-stars" aria-label="5 out of 5 stars">★★★★★</div>
+            <blockquote class="testimonial-quote">
+              "Their puppy relief visits were critical when house-training our Labrador. The walker reinforced our exact commands and routine. Professional, reliable, and deeply caring."
+            </blockquote>
+            <footer class="testimonial-author">
+              <span class="author-name">Sophia Chen</span>
+              <span class="author-dog">Parent to Milo (Yellow Labrador)</span>
+            </footer>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact & Consultation Enquiry Section -->
+    <section id="contact" class="section" aria-labelledby="contact-heading">
+      <div class="container contact-layout">
+        <div class="contact-info-panel">
+          <div class="section-header">
+            <span class="section-eyebrow">Get In Touch</span>
+            <h2 id="contact-heading">Schedule Your In-Home Consultation.</h2>
+            <p class="section-subtitle">
+              Ready to create a custom walking schedule for your dog? Submit the enquiry form, and we will contact you within 2 business hours to arrange a meet and greet.
+            </p>
+          </div>
+
+          <div class="contact-detail-item">
+            <div class="contact-detail-label">Service Hours</div>
+            <div class="contact-detail-value">Monday – Sunday: 7:00 AM – 8:00 PM</div>
+          </div>
+          <div class="contact-detail-item">
+            <div class="contact-detail-label">Telephone</div>
+            <div class="contact-detail-value">+1 (555) 234-5678</div>
+          </div>
+          <div class="contact-detail-item">
+            <div class="contact-detail-label">Office &amp; Support</div>
+            <div class="contact-detail-value">care@caninehaven.com</div>
+          </div>
+          <div class="contact-detail-item">
+            <div class="contact-detail-label">Coverage Area</div>
+            <div class="contact-detail-value">Metro Central, Northside Parkways, and Surrounding Boroughs</div>
+          </div>
+        </div>
+
+        <div class="contact-form-wrapper">
+          <div class="contact-form-card">
+            <!-- Dynamic Accessible Alerts -->
+            <div id="form-success-alert" class="form-alert form-alert-success" hidden role="status" aria-live="polite" tabindex="-1">
+              <span class="alert-title">Consultation Enquiry Received</span>
+              <span class="alert-body success-message"></span>
+            </div>
+
+            <div id="form-error-alert" class="form-alert form-alert-error" hidden role="alert" aria-live="assertive" tabindex="-1">
+              <span class="alert-title">Network Communication Error</span>
+              <span class="alert-body">A simulated or connectivity-related network error occurred while transmitting your request. Please check your connection and retry.</span>
+              <button type="button" id="form-retry-btn" class="btn btn-secondary form-retry-btn">Retry Submission</button>
+            </div>
+
+            <!-- Form -->
+            <form id="contact-form" novalidate aria-label="Dog Walking Consultation Booking Form">
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="owner-name" class="form-label">
+                    Your Full Name <span class="required-mark" aria-hidden="true">*</span>
+                  </label>
+                  <input 
+                    type="text" 
+                    id="owner-name" 
+                    name="ownerName" 
+                    class="form-control" 
+                    placeholder="e.g. Jane Doe" 
+                    required 
+                    autocomplete="name" 
+                  />
+                  <div id="owner-name-error" class="field-error" role="alert" aria-live="polite"></div>
+                </div>
+
+                <div class="form-group">
+                  <label for="owner-email" class="form-label">
+                    Email Address <span class="required-mark" aria-hidden="true">*</span>
+                  </label>
+                  <input 
+                    type="email" 
+                    id="owner-email" 
+                    name="ownerEmail" 
+                    class="form-control" 
+                    placeholder="jane@example.com" 
+                    required 
+                    autocomplete="email" 
+                  />
+                  <div id="owner-email-error" class="field-error" role="alert" aria-live="polite"></div>
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="owner-phone" class="form-label">
+                    Telephone Number <span class="required-mark" aria-hidden="true">*</span>
+                  </label>
+                  <input 
+                    type="tel" 
+                    id="owner-phone" 
+                    name="ownerPhone" 
+                    class="form-control" 
+                    placeholder="(555) 000-0000" 
+                    required 
+                    autocomplete="tel" 
+                  />
+                  <div id="owner-phone-error" class="field-error" role="alert" aria-live="polite"></div>
+                </div>
+
+                <div class="form-group">
+                  <label for="dog-name" class="form-label">
+                    Dog's Name <span class="required-mark" aria-hidden="true">*</span>
+                  </label>
+                  <input 
+                    type="text" 
+                    id="dog-name" 
+                    name="dogName" 
+                    class="form-control" 
+                    placeholder="e.g. Barnaby" 
+                    required 
+                  />
+                  <div id="dog-name-error" class="field-error" role="alert" aria-live="polite"></div>
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="service-select" class="form-label">
+                    Desired Walking Program <span class="required-mark" aria-hidden="true">*</span>
+                  </label>
+                  <select id="service-select" name="service" class="form-control" required>
+                    <option value="">Select a program...</option>
+                    <option value="solo-signature">Solo Signature Walk (45-60 min)</option>
+                    <option value="solo-walk">Solo Walk (Standard)</option>
+                    <option value="group-social">Group Social Stroll (60 min)</option>
+                    <option value="puppy-care">Puppy Care &amp; Relief (30 min)</option>
+                    <option value="senior-stroll">Senior Dog Gentle Pacing (30 min)</option>
+                    <option value="trail-adventure">Nature Trail Adventure (90 min)</option>
+                    <option value="express-relief">Express Midday Relief (20 min)</option>
+                  </select>
+                  <div id="service-select-error" class="field-error" role="alert" aria-live="polite"></div>
+                </div>
+
+                <div class="form-group">
+                  <label for="preferred-time" class="form-label">
+                    Preferred Time Window
+                  </label>
+                  <select id="preferred-time" name="preferredTime" class="form-control">
+                    <option value="morning">Morning (7:00 AM – 10:00 AM)</option>
+                    <option value="midday" selected>Midday (11:00 AM – 2:00 PM)</option>
+                    <option value="afternoon">Afternoon (2:00 PM – 5:00 PM)</option>
+                    <option value="evening">Evening (5:00 PM – 8:00 PM)</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="care-notes" class="form-label">
+                  Special Care Instructions or Dog Temperament Notes
+                </label>
+                <textarea 
+                  id="care-notes" 
+                  name="careNotes" 
+                  class="form-control" 
+                  placeholder="Provide any details regarding leash reactivity, dietary restrictions, medications, or favorite habits..."
+                ></textarea>
+              </div>
+
+              <!-- Edge Case Simulation Control for QA -->
+              <div class="sim-group">
+                <input type="checkbox" id="simulate-network-error" name="simulateNetworkError" />
+                <label for="simulate-network-error" class="sim-checkbox-label">
+                  Simulate network failure / offline condition (QA testing toggle)
+                </label>
+              </div>
+
+              <button type="submit" id="form-submit-btn" class="btn btn-primary" style="width: 100%;">
+                Submit Consultation Request
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Global Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="#hero" class="brand-logo" aria-label="Canine Haven Footer Logo">
+            <svg class="brand-icon" viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/>
+            </svg>
+            <span>CANINE HAVEN</span>
+          </a>
+          <p>
+            Premium dog walking and specialized companion care designed with safety, transparency, and canine well-being as our highest standards.
+          </p>
+        </div>
+
+        <div class="footer-col">
+          <div class="footer-title">Programs</div>
+          <ul class="footer-links">
+            <li><a href="#services">Solo Signature Walks</a></li>
+            <li><a href="#services">Group Social Strolls</a></li>
+            <li><a href="#services">Puppy Relief Visits</a></li>
+            <li><a href="#services">Senior Dog Care</a></li>
+            <li><a href="#services">Trail Adventures</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <div class="footer-title">Company</div>
+          <ul class="footer-links">
+            <li><a href="#about">Our Philosophy</a></li>
+            <li><a href="#how-it-works">How It Works</a></li>
+            <li><a href="#why-choose-us">Safety Standards</a></li>
+            <li><a href="#testimonials">Client Reviews</a></li>
+            <li><a href="#contact">Contact Support</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <div class="footer-title">Standards &amp; Trust</div>
+          <ul class="footer-links">
+            <li><span>Licensed &amp; Bonded</span></li>
+            <li><span>Pet CPR &amp; First Aid</span></li>
+            <li><span>GPS Route Verified</span></li>
+            <li><span>Dual-Leash Certified</span></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>&copy; 2026 Canine Haven Canine Care Services. All rights reserved.</div>
+        <div class="footer-meta">
+          <span>Targeting 100% WCAG AAA/AA Accessibility</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <button type="button" id="back-to-top-btn" class="back-to-top" hidden aria-label="Return to top of page">
+    ↑ Top
+  </button>
+
+  <!-- Modular Scripts -->
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>

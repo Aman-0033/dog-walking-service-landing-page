@@ -1,0 +1,23 @@
+{
+  "name": "dog-walking-service-landing-page",
+  "version": "1.0.0",
+  "description": "Premium, professional, responsive static landing page for a dog walking service.",
+  "type": "module",
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "serve": "node server.js"
+  },
+  "keywords": [
+    "dog-walking",
+    "vanilla-js",
+    "static-landing-page",
+    "accessibility"
+  ],
+  "author": "Autonomous Engineering Team",
+  "license": "MIT",
+  "devDependencies": {
+    "jsdom": "^25.0.1",
+    "vitest": "^2.1.8"
+  }
+}
